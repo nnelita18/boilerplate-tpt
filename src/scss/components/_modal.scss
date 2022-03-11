@@ -1,0 +1,121 @@
+$booking-modal: '.booking-modal';
+
+#{$booking-modal}{
+	.close {
+		position: absolute;
+		right: 1rem;
+		top: 1rem;
+		font-size: 1.7rem;
+		opacity: 1;
+		color: $brand-color;
+		z-index: 3;
+	}
+	.modal-body {
+		padding: 0;
+	}
+	&__img {
+		padding: 0;
+		@include media-breakpoint-down(sm) {
+			// order: 2;
+		}
+	}
+	&__content {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-end;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 3rem;
+		.title {
+			font-family: 'Gotham-Bold';
+			color: $brand-color;
+		}
+		.subtit {
+			color: #58595b;
+			margin-bottom: 1rem;
+			@include media-breakpoint-down(md) {
+				margin-bottom: 0.6rem;
+			}
+		}
+		p {
+			font-size: 0.74rem;
+		}
+		.bne-form {
+			margin: 1.3rem 0;
+
+			@include media-breakpoint-down(md) {
+				margin: 0.8rem 0;
+			}
+		}
+		.nav-comicons {
+			margin: 1.9rem 0;
+			justify-content: space-between;
+			.nav-item {
+				border-right: 0;
+				padding: 0;
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				.ico {
+					height: 30px;
+					width: 30px;
+					// margin: 1.9rem 0;
+					@include media-breakpoint-only(md) {
+						height: 20px;
+						width: 20px;
+					}
+				}
+				span {
+					font-size: 0.52rem;
+					@include media-breakpoint-only(md) {
+						font-size: 0.5rem;
+					}
+				}
+				@include media-breakpoint-down(sm) {
+					margin: 0.7rem 0;
+				}
+			}
+			@include media-breakpoint-down(md) {
+				margin: 0.8rem 0;
+			}
+		}
+		.cont-btns {
+			text-align: right;
+			.bne-btn--md {
+				&:nth-child(1) {
+					@include media-breakpoint-down(sm) {
+						order: 2;
+					}
+				}
+				&:nth-child(2) {
+					@include media-breakpoint-down(sm) {
+						order: 1;
+					}
+				}
+				@include media-breakpoint-down(sm) {
+					display: block;
+					margin: 0.5rem auto !important;
+					width: 210px;
+				}
+			}
+			&--center {
+				text-align: center;
+				width: 100%;
+			}
+			@include media-breakpoint-down(sm) {
+				width: 100%;
+				text-align: center;
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+		}
+		@include media-breakpoint-down(md) {
+			padding: 1.4rem;
+		}
+		@include media-breakpoint-down(sm) {
+			// order: 1;
+		}
+	}
+}
+

@@ -1,0 +1,134 @@
+$bne-form: '.bne-form';
+
+#{$bne-form}{
+	select {
+		-webkit-appearance: none;
+		-moz-appearance:    none;
+		appearance:         none;
+		background-image: none;
+		font-size: 0.64rem;
+		&:focus {
+			box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+			border-color: #ced4da;
+		}
+	}
+	.form-control {
+		font-size: 0.64rem;
+		&:focus {
+			box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+			border-color: #ced4da;
+		}
+	}
+	input {
+		font-size: 0.7rem;
+		text-align: left;
+		// line-height: 1.2;
+		vertical-align: middle;
+	}
+	.input-group {
+		.input-group-text {
+			border-radius: 0;
+			font-weight: 900;
+			// font-size: 0.64rem;
+		}
+		.input-group-prepend {
+			.input-group-text {
+				background-color: $brand-color;
+				color: #ffffff;
+			}
+		}
+		.input-group-append {
+			.input-group-text {
+				background-color: #b2b2b2;
+				color: #ffffff;
+			}
+		}
+		&.cinput {
+			position: relative;
+			.custom-select {
+				background-color: transparent;
+				padding-right: 42px;
+			}
+			&:before {
+				color: transparent;
+				background: #b2b2b2;
+				display: block;
+				font-family: 'Font Awesome 6 Free';
+				font-weight: 900;
+				font-size: 1rem;
+				content: "\f078";
+				width: 40px;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				right: 0;
+				color: #ffffff;
+				text-align: center;
+				z-index: 0;
+			}
+		}
+	}
+	input[type="date"] {
+		position: relative;
+		&::-webkit-date-and-time-value {
+			text-align:left;
+			// vertical-align: bottom;
+			line-height: 3;
+		}
+		&::-webkit-calendar-picker-indicator {
+		  color: transparent;
+		  background: none;
+		  z-index: 1;
+		}
+		&:before {
+			color: transparent;
+			background: #b2b2b2;
+			display: block;
+			font-family: 'Font Awesome 6 Free';
+			font-weight: 900;
+			font-size: 1rem;
+			content: "\f078";
+			width: 40px;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			right: 0;
+			color: #ffffff;
+			text-align: center;
+		}
+		&.no-append {
+			// padding-left: 40px;
+			&:before {
+				display: none;
+				// left: 0;
+				// right: auto;
+				// content: "\f073";
+				// font-family: 'Font Awesome 6 Free';
+				// font-weight: 900;
+			}
+		}
+	}
+
+	// input[type="date"]::-webkit-calendar-picker-indicator {
+	//   color: transparent;
+	//   background: none;
+	//   z-index: 1;
+	// }
+
+	// input[type="date"]:before {
+	// 	color: transparent;
+	// 	background: #b2b2b2;
+	// 	display: block;
+	// 	font-family: 'Font Awesome 6 Free';
+	// 	font-weight: 900;
+	// 	font-size: 1rem;
+	// 	content: "\f078";
+	// 	width: 40px;
+	// 	height: 100%;
+	// 	position: absolute;
+	// 	top: 0;
+	// 	right: 0;
+	// 	color: #ffffff;
+	// 	text-align: center;
+	// }
+}

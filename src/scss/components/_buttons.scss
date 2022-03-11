@@ -1,0 +1,18 @@
+%btnn {
+	border-radius: 0;
+}
+
+$btn-theme: '.hsbc-btn';
+
+#{$btn-theme}{
+	@extend %btnn;
+	font-family: 'UniversNextforHSBC-bold';
+	padding: 0.375rem 3.75rem;
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;
+}
+
+.btn-primary {
+	color: #ffffff !important;
+}
