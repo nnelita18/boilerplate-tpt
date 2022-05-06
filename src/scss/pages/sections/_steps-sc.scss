@@ -1,0 +1,81 @@
+$mrt-steps: '.mrt-steps';
+
+#{$mrt-steps}{
+	list-style: none;
+	&__title {
+		font-family: 'GothamBook';
+		color: $brand-color;
+		text-align: center;
+		margin: 1rem 0 2rem;
+	}
+	&__list {
+		padding-left: 0;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		list-style: none;
+		flex-wrap: wrap;
+		margin: 0;
+		li {
+			color: $brand-color;
+			margin: 1rem 2.5rem;
+			text-align: center;
+			font-family: 'GothamMedium';
+			font-size: 0.8rem;
+
+			.mechanic {
+				color: $brand-color;
+				font-size: 1.2rem;
+				margin-bottom: 0.9rem;
+				.imgico {
+					height: 40px;
+					width: 40px;
+				}
+				@include media-breakpoint-down(xs) {
+					margin-right: 1rem;
+				}
+			}
+			.txt-gray {
+				font-family: 'GothamBook';
+				color: #544f62;
+				@include media-breakpoint-down(xs) {
+					text-align: left;
+				}
+			}
+			&:last-child {
+				@include media-breakpoint-down(xs) {
+					// width: 80%;
+					padding-bottom: 0 !important;
+					margin-bottom: 0 !important;
+				}
+			}
+			@include media-breakpoint-down(sm) {
+				margin: 1rem 0.6rem;
+			}
+			@include media-breakpoint-down(xs) {
+				margin: 0.6rem 0;
+				width: 100%;
+				font-size: 0.78rem;
+				display: flex;
+			}
+		}
+		@include media-breakpoint-down(xs) {
+			width: 66%;
+			margin: 0 auto;
+		}
+	}
+	.mcusy {
+		margin: 3rem 0;
+		@include media-breakpoint-down(xs) {
+			margin: 1.8rem 0;
+		}
+	}
+	.txt-wine {
+		color: #b01657;
+		font-family: 'GothamBook';
+		font-size: 1rem;
+		strong {
+			font-family: 'Gotham-Bold';
+		}
+	}
+}

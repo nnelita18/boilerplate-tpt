@@ -1,0 +1,53 @@
+
+/**
+ * ----------------------------------------
+ * webfont: Gotham-Black
+ * ----------------------------------------
+ */
+
+@font-face {
+  font-family: 'Gotham-Black';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Gotham/Gotham-Black.otf) format('woff2');
+  text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Gotham/Gotham-Bold.otf) format('woff2');
+  text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham-Light';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Gotham/Gotham-Light.otf) format('woff2');
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamBook';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Gotham/GothamBook.otf) format('woff2');
+  text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'GothamMedium';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Gotham/GothamMedium.otf) format('woff2');
+  text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+

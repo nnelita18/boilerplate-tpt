@@ -7,7 +7,7 @@
 @import "node_modules/@fortawesome/fontawesome-free/scss/solid";
 @import "node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
 
-@import "base/fonts";
+@import "base/fonts-banorte";
 @import "base/animations";
 @import "global/gral";
 
@@ -18,8 +18,8 @@
 // @import "partials/nav-menu";
 
 // Experiences page
-// @import "pages/common";
-
+@import "pages/banner/banner";
+@import "pages/sections/steps-sc";
 
 
 

@@ -6,24 +6,24 @@ body {
 	font-size: 1rem;
 }
 
+.ff-black {
+	font-family: 'Gotham-Black' !important;
+	font-weight: 400 !important;
+}
 .ff-bold {
-	font-family: 'UniversNextforHSBC-bold' !important;
+	font-family: 'Gotham-Bold' !important;
 	font-weight: 400 !important;
 }
 .ff-medium {
-	font-family: 'UniversNextforHSBC-medium' !important;
+	font-family: 'GothamMedium' !important;
 	font-weight: 400 !important;
 }
-.ff-regular {
-	font-family: 'UniversNextforHSBC-regular' !important;
+.ff-book {
+	font-family: 'GothamBook' !important;
 	font-weight: 400 !important;
 }
 .ff-light {
-	font-family: 'UniversNextforHSBC-light' !important;
-	font-weight: 400 !important;
-}
-.ff-thin {
-	font-family: 'UniversNextforHSBC-thin' !important;
+	font-family: 'Gotham-Light' !important;
 	font-weight: 400 !important;
 }
 
