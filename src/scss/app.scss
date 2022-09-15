@@ -7,7 +7,8 @@
 @import "node_modules/@fortawesome/fontawesome-free/scss/solid";
 @import "node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
 
-@import "base/fonts-banorte";
+@import "base/fonts-rooney-univia";
+
 @import "base/animations";
 @import "global/gral";
 
@@ -15,7 +16,8 @@
 // @import "components/buttons";
 // @import "components/modals";
 
-// @import "partials/nav-menu";
+@import "partials/nav-menu";
+@import "partials/sidebar";
 
 // Experiences page
 @import "pages/banner/banner";

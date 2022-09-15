@@ -1,28 +1,30 @@
-$font-family-sans-serif:  'GothamBook', Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "rooney-sans", Arial,sans-serif;
 $text-color: #333333;
 $gray-dark: #1d1d1b;
-$primary-color: #db0011;
+$primary-color: #ff6900;
+$orange-brand: #ec6a27;
 $body-bg: #ffffff;
 $fontwhite: #ffffff;
+$cyan: #019daa;
 
 $body-bg: $fontwhite;
-$carousel-transition: opacity 2.5s ease-in-out;
-$font-size-base:              1rem !default;
-$h1-font-size: $font-size-base * 1.8 !default;
-$h2-font-size: $font-size-base * 1.6 !default;
-$h3-font-size: $font-size-base * 1.4 !default;
-$h4-font-size: $font-size-base * 1.2 !default;
-$h5-font-size: $font-size-base * 1 !default;
-$h6-font-size: $font-size-base * 0.8 !default;
+// $carousel-transition: opacity 2.5s ease-in-out;
+// $font-size-base:              1rem !default;
+// $h1-font-size: $font-size-base * 1.8 !default;
+// $h2-font-size: $font-size-base * 1.6 !default;
+// $h3-font-size: $font-size-base * 1.4 !default;
+// $h4-font-size: $font-size-base * 1.2 !default;
+// $h5-font-size: $font-size-base * 1 !default;
+// $h6-font-size: $font-size-base * 0.8 !default;
 
-$headings-font-family:  'Gotham-Bold' !default;
+$headings-font-family:  "rooney-sans" !default;
 $headings-font-weight:  400 !default;
 
-$brand-color: #db0011;
+$brand-color: #ff6900;
 
 $theme-colors: (
-    "primary": #db0011,
-    "secondary": #808080,
+    "primary": #ff6900,
+    "secondary": #019daa,
     "dark": #1d1d1b,
     "light": #ffffff
 );
